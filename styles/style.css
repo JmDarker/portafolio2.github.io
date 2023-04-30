@@ -88,7 +88,7 @@ header {
 }
 
 section .container {
-    width: 1140px;
+    width: 1080px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +104,7 @@ section .container {
 /* hero perfil */
 
 .hero {
-    padding: 5rem 0;
+    padding: 5% 0;
     }
 
     .hero .left {
@@ -114,16 +114,16 @@ section .container {
     }
 
     .hero h1 {
-        font-size: 5rem;
+        font-size: 400%;
         text-transform: capitalize;
         font-weight: 400;
-        line-height: 5.5rem;
+        line-height: 100%;
     }
 
     .hero p {
-        font-size: 1.125rem;
-        line-height: 2;
-        margin: 2rem 0;
+        font-size: 100%;
+        line-height: 1.5;
+        margin: 15% 0;
     }
 
     .hero .img-container {
@@ -133,9 +133,11 @@ section .container {
     }
 
     .hero .img-container img {
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
         object-fit: cover;
+        border-radius: 50%;
+        z-index: 1;
     }
 
 /*dropdown menu*/
